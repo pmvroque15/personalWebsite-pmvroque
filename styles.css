@@ -1,0 +1,30 @@
+.profile-pic {
+    border-radius: 10%;
+    
+}
+
+.header {
+    background-color: #102E50;
+    
+}
+
+.name-header {
+    background-color: #F5C45E;
+    border-radius: 5%;
+}
+
+.skills-box {
+    background-color: #E78B48;
+}
+
+.side-quest {
+    color: white;
+}
+
+.squat-img {
+    height: 465px;
+} 
+
+.contact-me {
+    background-color: #E78B48;
+}
