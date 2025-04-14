@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+   
+}
 .profile-pic {
     border-radius: 10%;
     
@@ -25,6 +29,50 @@
     height: 465px;
 } 
 
-.contact-me {
+/* second section */
+.more-info{
     background-color: #E78B48;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 1fr;
+    
+}
+
+.info-head {
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-par{
+    display: flex;
+    justify-content: center;
+    background-color: #102E50;
+    color: antiquewhite;
+    border-radius: 5%;
+    
+}
+
+.info-section2 {
+    display: flex;
+    justify-self: center;
+    width: 850px;
+    padding-bottom: 10px;
+}
+
+.par {
+   display: flex;
+   align-items: center;
+   padding-right: 5%;
+   padding-left: 5%;
+}
+
+.browser-img {
+    display: flex;
+    justify-content: center;
+    align-self: end;
+    margin: 0;
+    padding: 0%;
+    width: 700px;
+    height: 300px;
 }
